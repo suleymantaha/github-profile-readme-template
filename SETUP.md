@@ -51,9 +51,9 @@ lines=First+line;Second+line;Third+line
 3. 2-3 dakika bekleyin
 4. `profile/` klasörü SVG dosyalarıyla dolacak
 
-## Adım 5: Katkı Yılanı (Opsiyonel)
+## Adım 5: Katkı Yılanı (Otomatik)
 
-[Platane/snk](https://github.com/Platane/snk) kullanarak katkı yılanı ekleyin. Repo README'sindeki talimatları takip edin.
+Template'e dahil `snake.yml` workflow'u ilk push'tan sonra `output` branch'ini oluşturur ve yılan SVG'sini üretir. README'deki `YOUR_USERNAME` değiştirildiyse yılan otomatik görünür. Manuel tetiklemek için **Actions** → **Generate Snake** → **Run workflow**.
 
 ## Sorun Giderme
 

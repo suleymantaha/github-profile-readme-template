@@ -27,6 +27,11 @@ GitHub profil README'nizi etkileyici hale getirmek için hazır şablon. **Rate 
   <img src="profile/pin-repo2.svg" alt="Pin 2" />
 </p>
 
+### Katkı Yılanı
+<p align="center">
+  <img src="https://raw.githubusercontent.com/suleymantaha/suleymantaha/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
+</p>
+
 **[→ Tam şablonu görüntüle](https://github.com/suleymantaha/github-profile-readme-template/blob/main/TEMPLATE_README.md)**
 
 ---
@@ -38,7 +43,7 @@ GitHub profil README'nizi etkileyici hale getirmek için hazır şablon. **Rate 
 - 📈 31 günlük katkı grafiği
 - 📌 Öne çıkan proje kartları (2 adet)
 - 🛠️ Teknoloji stack ikonları
-- 🐍 Katkı yılanı (ayrı kurulum gerekir)
+- 🐍 Katkı yılanı (otomatik, snake.yml workflow)
 - ⏰ Her 6 saatte otomatik güncelleme
 
 ## 🚀 Hızlı Kurulum
@@ -73,7 +78,8 @@ Push sonrası **Actions** sekmesinden workflow'u manuel tetikleyin veya 6 saat b
 ├── README.md              ← Profil README (TEMPLATE_README.md'dan)
 ├── .github/
 │   └── workflows/
-│       └── update-stats.yml
+│       ├── update-stats.yml
+│       └── snake.yml
 └── profile/               ← SVG'ler buraya (otomatik)
     ├── stats.svg
     ├── top-langs.svg
@@ -83,9 +89,9 @@ Push sonrası **Actions** sekmesinden workflow'u manuel tetikleyin veya 6 saat b
     └── pin-*.svg
 ```
 
-## 🐍 Katkı Yılanı (Opsiyonel)
+## 🐍 Katkı Yılanı
 
-[Platane/snc](https://github.com/Platane/snk) ile katkı yılanı eklemek için ayrı workflow gerekir. [Bu örnek](https://github.com/Platane/snk#github-action) ile kurabilirsiniz.
+Template'e dahil `snake.yml` workflow'u [Platane/snk](https://github.com/Platane/snk) kullanarak `output` branch'ine yılan SVG'si üretir. İlk push veya manuel tetiklemeden sonra görünür.
 
 ## 🎨 Renk Özelleştirme
 
