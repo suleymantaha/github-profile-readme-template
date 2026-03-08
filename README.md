@@ -2,6 +2,16 @@
 
 GitHub profil README'nizi etkileyici hale getirmek için hazır şablon. **Rate limit** ve **yükleme sorunlarına** karşı istatistikler **yerel SVG** olarak saklanır, GitHub Actions ile otomatik güncellenir.
 
+## 📸 Önizleme
+
+Profil README şablonunun nasıl görüneceğini görmek için:
+
+**[→ Şablon önizlemesini görüntüle](https://github.com/suleymantaha/github-profile-readme-template/blob/main/TEMPLATE_README.md)**
+
+*(Tıklayın — GitHub'da render edilmiş hali açılır)*
+
+---
+
 ## ✨ Özellikler
 
 - 📊 GitHub Stats, Top Languages, Streak
