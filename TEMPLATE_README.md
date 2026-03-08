@@ -29,8 +29,12 @@
   <img src="./profile/stats.svg" alt="Stats" height="165"/>
   &nbsp;
   <img src="./profile/streak.svg" alt="Streak" height="165"/>
-  &nbsp;
-  <img src="./profile/top-langs.svg" alt="Top Languages" height="165"/>
+</p>
+
+### 🗣️ En Çok Kullandığım Diller
+
+<p align="center">
+  <img src="./profile/top-langs.svg" alt="Top Languages" width="45%" />
 </p>
 
 ### 🏆 Achievements
@@ -100,12 +104,8 @@
 
 ### 🐍 Contribution Graph
 
-<!-- Snake: Platane/snk ile kurulum gerekir. Detay: https://github.com/Platane/snk -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg">
-  <img alt="Contribution snake" src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake.svg">
-</picture>
+<!-- Snake: Platane/snk - dark tema -->
+<img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 
 ---
 

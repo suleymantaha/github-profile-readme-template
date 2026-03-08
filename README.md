@@ -10,7 +10,11 @@ GitHub profil README'nizi etkileyici hale getirmek için hazır şablon. **Rate 
 <p align="center">
   <img src="profile/stats.svg" alt="Stats" height="140"/>
   <img src="profile/streak.svg" alt="Streak" height="140"/>
-  <img src="profile/top-langs.svg" alt="Top Languages" height="140"/>
+</p>
+
+### Diller
+<p align="center">
+  <img src="profile/top-langs.svg" alt="Top Languages" width="45%" />
 </p>
 
 ### Başarılar & Aktivite
@@ -29,7 +33,7 @@ GitHub profil README'nizi etkileyici hale getirmek için hazır şablon. **Rate 
 
 ### Katkı Yılanı
 <p align="center">
-  <img src="https://raw.githubusercontent.com/suleymantaha/suleymantaha/output/github-contribution-grid-snake.svg" alt="Contribution snake" />
+  <img src="https://raw.githubusercontent.com/suleymantaha/suleymantaha/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 </p>
 
 **[→ Tam şablonu görüntüle](https://github.com/suleymantaha/github-profile-readme-template/blob/main/TEMPLATE_README.md)**
