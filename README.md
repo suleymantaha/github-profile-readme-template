@@ -4,11 +4,30 @@ GitHub profil README'nizi etkileyici hale getirmek için hazır şablon. **Rate 
 
 ## 📸 Önizleme
 
-Profil README şablonunun nasıl görüneceğini görmek için:
+*Şablonun oluşturduğu SVG'ler (suleymantaha verileriyle örnek):*
 
-**[→ Şablon önizlemesini görüntüle](https://github.com/suleymantaha/github-profile-readme-template/blob/main/TEMPLATE_README.md)**
+### İstatistikler
+<p align="center">
+  <img src="profile/stats.svg" alt="Stats" height="140"/>
+  <img src="profile/streak.svg" alt="Streak" height="140"/>
+  <img src="profile/top-langs.svg" alt="Top Languages" height="140"/>
+</p>
 
-*(Tıklayın — GitHub'da render edilmiş hali açılır)*
+### Başarılar & Aktivite
+<p align="center">
+  <img src="profile/trophy.svg" alt="Trophies" />
+</p>
+<p align="center">
+  <img src="profile/activity.svg" alt="Activity" width="95%" />
+</p>
+
+### Öne Çıkan Projeler
+<p align="center">
+  <img src="profile/pin-repo1.svg" alt="Pin 1" />
+  <img src="profile/pin-repo2.svg" alt="Pin 2" />
+</p>
+
+**[→ Tam şablonu görüntüle](https://github.com/suleymantaha/github-profile-readme-template/blob/main/TEMPLATE_README.md)**
 
 ---
 
