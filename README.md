@@ -1,23 +1,23 @@
 # 🎨 GitHub Profile README Template
 
-GitHub profil README'nizi etkileyici hale getirmek için hazır şablon. **Rate limit** ve **yükleme sorunlarına** karşı istatistikler **yerel SVG** olarak saklanır, GitHub Actions ile otomatik güncellenir.
+A ready-to-use template to make your GitHub profile README stand out. Stats are stored as **local SVG** files and updated via GitHub Actions to avoid rate limits and loading issues.
 
-## 📸 Önizleme
+## 📸 Preview
 
-*Şablonun oluşturduğu SVG'ler (suleymantaha verileriyle örnek):*
+*Sample SVG output (using suleymantaha's data):*
 
-### İstatistikler
+### Stats
 <p align="center">
   <img src="profile/stats.svg" alt="Stats" height="140"/>
   <img src="profile/streak.svg" alt="Streak" height="140"/>
 </p>
 
-### Diller
+### Top Languages
 <p align="center">
   <img src="profile/top-langs.svg" alt="Top Languages" width="45%" />
 </p>
 
-### Başarılar & Aktivite
+### Achievements & Activity
 <p align="center">
   <img src="profile/trophy.svg" alt="Trophies" />
 </p>
@@ -25,66 +25,66 @@ GitHub profil README'nizi etkileyici hale getirmek için hazır şablon. **Rate 
   <img src="profile/activity.svg" alt="Activity" width="95%" />
 </p>
 
-### Öne Çıkan Projeler
+### Featured Projects
 <p align="center">
   <img src="profile/pin-repo1.svg" alt="Pin 1" />
   <img src="profile/pin-repo2.svg" alt="Pin 2" />
 </p>
 
-### Katkı Yılanı
+### Contribution Snake
 <p align="center">
   <img src="https://raw.githubusercontent.com/suleymantaha/suleymantaha/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 </p>
 
-**[→ Tam şablonu görüntüle](https://github.com/suleymantaha/github-profile-readme-template/blob/main/TEMPLATE_README.md)**
+**[→ View full template](https://github.com/suleymantaha/github-profile-readme-template/blob/main/TEMPLATE_README.md)**
 
 ---
 
-## ✨ Özellikler
+## ✨ Features
 
 - 📊 GitHub Stats, Top Languages, Streak
-- 🏆 Başarı rozetleri (Trophy)
-- 📈 31 günlük katkı grafiği
-- 📌 Öne çıkan proje kartları (2 adet)
-- 🛠️ Teknoloji stack ikonları
-- 🐍 Katkı yılanı (otomatik, snake.yml workflow)
-- ⏰ Her 6 saatte otomatik güncelleme
+- 🏆 Trophy achievements
+- 📈 31-day activity graph
+- 📌 Featured project cards (2)
+- 🛠️ Tech stack icons
+- 🐍 Contribution snake (auto, snake.yml workflow)
+- ⏰ Auto-update every 6 hours
 
-## 🚀 Hızlı Kurulum
+## 🚀 Quick Setup
 
-### 1. Template'i Kullan
+### 1. Use Template
 
-Bu repoyu **Use this template** ile kopyalayın. Yeni repo adı **kullanıcı adınızla aynı** olmalı (örn: `johndoe/johndoe`) — bu GitHub profil README formatıdır.
+Click **Use this template** to copy this repo. Name the new repo **your username** (e.g. `johndoe/johndoe`) — that's the GitHub profile README format.
 
-### 2. Dosyaları Kopyala
+### 2. Copy Files
 
-- `TEMPLATE_README.md` → `README.md` olarak yeniden adlandırın
-- `.github/workflows/` klasörü zaten dahil
+- Rename `TEMPLATE_README.md` → `README.md`
+- `.github/workflows/` is already included
 
-### 3. Kişiselleştir
+### 3. Customize
 
-| Değiştir | Dosya | Açıklama |
-|----------|-------|----------|
-| `YOUR_USERNAME` | README.md, workflow | GitHub kullanıcı adınız |
-| `YOUR_REPO_1`, `YOUR_REPO_2` | `.github/workflows/update-stats.yml` | Öne çıkarmak istediğiniz 2 repo |
-| Typing satırları | README.md | `lines=` parametresindeki metinler |
-| E-posta, LinkedIn | README.md | İletişim bilgileriniz |
-| Renkler | workflow, README | `title_color`, `icon_color` vb. |
+| Replace | File | Description |
+|---------|------|-------------|
+| `YOUR_USERNAME` | README.md, workflow | Your GitHub username |
+| `YOUR_REPO_1`, `YOUR_REPO_2` | `.github/workflows/update-stats.yml` | Repos to feature |
+| Typing lines | README.md | Text in `lines=` param |
+| Email, LinkedIn | README.md | Contact info |
+| Colors | workflow, README | `title_color`, `icon_color`, etc. |
 
-### 4. İlk Çalıştırma
+### 4. First Run
 
-Push sonrası **Actions** sekmesinden workflow'u manuel tetikleyin veya 6 saat bekleyin. `profile/` klasörü oluşacak.
+After pushing, trigger the workflow from **Actions** or wait ~6 hours. The `profile/` folder will be populated.
 
-## 📁 Klasör Yapısı
+## 📁 Structure
 
 ```
 .
-├── README.md              ← Profil README (TEMPLATE_README.md'dan)
+├── README.md              ← Profile README (from TEMPLATE_README.md)
 ├── .github/
 │   └── workflows/
 │       ├── update-stats.yml
 │       └── snake.yml
-└── profile/               ← SVG'ler buraya (otomatik)
+└── profile/               ← SVGs (auto-generated)
     ├── stats.svg
     ├── top-langs.svg
     ├── streak.svg
@@ -93,22 +93,22 @@ Push sonrası **Actions** sekmesinden workflow'u manuel tetikleyin veya 6 saat b
     └── pin-*.svg
 ```
 
-## 🐍 Katkı Yılanı
+## 🐍 Contribution Snake
 
-Template'e dahil `snake.yml` workflow'u [Platane/snk](https://github.com/Platane/snk) kullanarak `output` branch'ine yılan SVG'si üretir. İlk push veya manuel tetiklemeden sonra görünür.
+The included `snake.yml` workflow uses [Platane/snk](https://github.com/Platane/snk) to generate the snake SVG on the `output` branch. It appears after the first push or manual trigger.
 
-## 🎨 Renk Özelleştirme
+## 🎨 Color Customization
 
-Workflow ve README'deki renk kodlarını değiştirin:
+Edit color codes in the workflow and README:
 
-- `title_color` — Başlık rengi
-- `icon_color` — İkon rengi  
-- `text_color` — Metin rengi
+- `title_color` — Title color
+- `icon_color` — Icon color  
+- `text_color` — Text color
 
-## 📄 Lisans
+## 📄 License
 
-MIT — İstediğiniz gibi kullanın.
+MIT — Use freely.
 
 ---
 
-**Not:** Bu template herhangi bir kişiye veya organizasyona özel değildir. Kendi GitHub kullanıcı adınız ve repolarınızla kişiselleştirmeniz yeterlidir.
+**Note:** This template is generic. Customize it with your own username and repos.

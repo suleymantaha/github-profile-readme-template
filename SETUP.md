@@ -1,67 +1,67 @@
-# 📋 Detaylı Kurulum Kılavuzu
+# 📋 Setup Guide
 
-## Adım 1: Repo Oluşturma
+## Step 1: Create Repo
 
-1. Bu repoyu **Use this template** ile kopyalayın
-2. Yeni repo adı: **`kullaniciadiniz`** (GitHub kullanıcı adınızla aynı)
-3. Public olarak oluşturun
+1. Click **Use this template** to copy this repo
+2. New repo name: **`yourusername`** (same as your GitHub username)
+3. Create as Public
 
-> ⚠️ GitHub profil README'si için repo adı **kullanıcı adıyla aynı** olmalıdır (örn: `johndoe/johndoe`)
+> ⚠️ For GitHub profile README, the repo name must match your username (e.g. `johndoe/johndoe`)
 
-## Adım 2: Dosya Hazırlığı
+## Step 2: Prepare Files
 
 ```bash
-# TEMPLATE_README.md içeriğini README.md'ye kopyalayın
+# Copy TEMPLATE_README.md to README.md
 cp TEMPLATE_README.md README.md
 ```
 
-## Adım 3: Değiştirilecek Placeholder'lar
+## Step 3: Replace Placeholders
 
-### README.md içinde:
+### In README.md:
 
-| Placeholder | Değiştir | Örnek |
-|-------------|----------|-------|
-| `YOUR_USERNAME` | GitHub kullanıcı adınız | `johndoe` |
-| `YOUR_EMAIL` | E-posta adresiniz | `john@example.com` |
-| `YOUR_LINKEDIN` | LinkedIn kullanıcı adı | `johndoe` |
-| `YOUR_REPO_1` | 1. öne çıkan proje | `awesome-project` |
-| `YOUR_REPO_2` | 2. öne çıkan proje | `another-project` |
+| Placeholder | Replace With | Example |
+|-------------|--------------|---------|
+| `YOUR_USERNAME` | Your GitHub username | `johndoe` |
+| `YOUR_EMAIL` | Your email | `john@example.com` |
+| `YOUR_LINKEDIN` | LinkedIn username | `johndoe` |
+| `YOUR_REPO_1` | 1st featured project | `awesome-project` |
+| `YOUR_REPO_2` | 2nd featured project | `another-project` |
 
-### Typing animasyonu
+### Typing animation
 
-`lines=` parametresindeki metinleri değiştirin. Satırlar `+` ile birleştirilir, `;` ile ayrılır:
+Edit the text in the `lines=` param. Lines are joined with `+`, separated with `;`:
 
 ```
 lines=First+line;Second+line;Third+line
 ```
 
-### .github/workflows/update-stats.yml içinde:
+### In .github/workflows/update-stats.yml:
 
-| Placeholder | Değiştir |
-|-------------|----------|
-| `YOUR_REPO_1` | İlk öne çıkan proje repo adı |
-| `YOUR_REPO_2` | İkinci öne çıkan proje repo adı |
+| Placeholder | Replace With |
+|-------------|--------------|
+| `YOUR_REPO_1` | First featured repo name |
+| `YOUR_REPO_2` | Second featured repo name |
 
-> Workflow'da `username` otomatik alınır (`${{ github.repository_owner }}`) — profil repo formatında repo sahibi = kullanıcı adınız.
+> `username` is auto-filled (`${{ github.repository_owner }}`) — in profile repo format, owner = your username.
 
-## Adım 4: İlk Push ve Workflow
+## Step 4: First Push & Workflow
 
-1. Değişiklikleri commit edip push edin
-2. **Actions** → **Update Profile Stats** → **Run workflow**
-3. 2-3 dakika bekleyin
-4. `profile/` klasörü SVG dosyalarıyla dolacak
+1. Commit and push your changes
+2. Go to **Actions** → **Update Profile Stats** → **Run workflow**
+3. Wait 2–3 minutes
+4. The `profile/` folder will be filled with SVG files
 
-## Adım 5: Katkı Yılanı (Otomatik)
+## Step 5: Contribution Snake (Automatic)
 
-Template'e dahil `snake.yml` workflow'u ilk push'tan sonra `output` branch'ini oluşturur ve yılan SVG'sini üretir. README'deki `YOUR_USERNAME` değiştirildiyse yılan otomatik görünür. Manuel tetiklemek için **Actions** → **Generate Snake** → **Run workflow**.
+The included `snake.yml` workflow creates the `output` branch and generates the snake SVG after the first push. If `YOUR_USERNAME` is set in README, the snake will show automatically. To trigger manually: **Actions** → **Generate Snake** → **Run workflow**.
 
-## Sorun Giderme
+## Troubleshooting
 
-**SVG'ler görünmüyor?**  
-→ Actions'da workflow'un başarıyla tamamlandığından emin olun. Hata varsa logları kontrol edin.
+**SVGs not showing?**  
+→ Check that the workflow completed successfully in Actions. Review logs if it failed.
 
-**Pin kartları boş?**  
-→ `YOUR_REPO_1` ve `YOUR_REPO_2`'nin var olan public repolarınız olduğundan emin olun.
+**Pin cards empty?**  
+→ Ensure `YOUR_REPO_1` and `YOUR_REPO_2` are your existing public repos.
 
-**Trophy yüklenmiyor?**  
-→ `gh-trophy.cdnsoft.net` alternatif servis kullanılıyor. Sorun devam ederse [ryo-ma/github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) load balancing URL'lerini deneyin.
+**Trophy not loading?**  
+→ We use `gh-trophy.cdnsoft.net` as an alternative. If issues persist, try [ryo-ma/github-profile-trophy](https://github.com/ryo-ma/github-profile-trophy) load balancing URLs.

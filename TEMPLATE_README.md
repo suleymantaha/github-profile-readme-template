@@ -1,9 +1,9 @@
 <!--
-  KURULUM: Bu dosyayı README.md olarak kopyalayın.
-  YOUR_USERNAME → GitHub kullanıcı adınız
-  YOUR_EMAIL, YOUR_LINKEDIN → İletişim bilgileriniz
-  Typing satırları → Kendi tanıtım metniniz
-  Teknoloji ikonları → Kullandığınız dillere göre düzenleyin
+  SETUP: Copy this file as README.md
+  YOUR_USERNAME → Your GitHub username
+  YOUR_EMAIL, YOUR_LINKEDIN → Your contact info
+  Typing lines → Your intro text
+  Tech icons → Adjust to your languages
 -->
 
 <div align="center">
@@ -31,7 +31,7 @@
   <img src="./profile/streak.svg" alt="Streak" height="165"/>
 </p>
 
-### 🗣️ En Çok Kullandığım Diller
+### 🗣️ Top Languages
 
 <p align="center">
   <img src="./profile/top-langs.svg" alt="Top Languages" width="45%" />
@@ -104,7 +104,7 @@
 
 ### 🐍 Contribution Graph
 
-<!-- Snake: Platane/snk - dark tema -->
+<!-- Snake: Platane/snk - dark theme -->
 <img src="https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_USERNAME/output/github-contribution-grid-snake-dark.svg" alt="Contribution snake" />
 
 ---

@@ -1,6 +1,6 @@
 # GitHub Contribution Snake - Platane/snk
-# Yılan SVG'si output branch'e push edilir
-# URL: https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-contribution-grid-snake.svg
+# Snake SVG is pushed to output branch
+# URL: https://raw.githubusercontent.com/USERNAME/USERNAME/output/github-contribution-grid-snake-dark.svg
 
 name: Generate Snake
 

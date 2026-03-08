@@ -1,6 +1,6 @@
-# GitHub Profile README - Otomatik İstatistik Güncelleme
-# Kullanım: YOUR_USERNAME ve YOUR_REPO_1, YOUR_REPO_2'yi kendi bilgilerinizle değiştirin
-# Profil repo formatında (username/username) github.repository_owner otomatik kullanıcı adınızı verir
+# GitHub Profile README - Auto Stats Update
+# Replace YOUR_REPO_1, YOUR_REPO_2 with your repo names
+# username is auto-filled via github.repository_owner (profile repo format)
 
 name: Update Profile Stats
 
@@ -36,8 +36,8 @@ jobs:
           path: profile/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      # Öne çıkan projeler - YOUR_REPO_1 ve YOUR_REPO_2'yi kendi repo adlarınızla değiştirin
-      # Sadece 1 proje istiyorsanız ikinci step'i silin
+      # Featured projects - replace YOUR_REPO_1, YOUR_REPO_2 with your repo names
+      # Remove the second step if you only want 1 project
       - name: Generate pin card 1
         uses: readme-tools/github-readme-stats-action@v1
         with:
