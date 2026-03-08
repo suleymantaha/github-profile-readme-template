@@ -4,11 +4,11 @@ GitHub profil README'nizi etkileyici hale getirmek için hazır şablon. **Rate 
 
 ## 📸 Önizleme
 
-Profil README şablonunun nasıl görüneceğini görmek için:
+<p align="center">
+  <img src="assets/template-preview.png" alt="Template Preview" width="90%" />
+</p>
 
-**[→ Şablon önizlemesini görüntüle](https://github.com/suleymantaha/github-profile-readme-template/blob/main/TEMPLATE_README.md)**
-
-*(Tıklayın — GitHub'da render edilmiş hali açılır)*
+**[→ Tam önizlemeyi görüntüle](https://github.com/suleymantaha/github-profile-readme-template/blob/main/TEMPLATE_README.md)**
 
 ---
 
